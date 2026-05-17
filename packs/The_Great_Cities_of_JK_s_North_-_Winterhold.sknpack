@@ -201,13 +201,32 @@
           "household"
         ],
         "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"CrimeFactionWinterhold\")",
+        "content": "Magnar's Forge is located on the south side of Winterhold, next to the Guardhouse, where the blacksmith Magnar provides essential smithing services to the town and its visitors — repairs, crafting, and supplies for those who need quality metalwork.",
+        "display_name": "Magnar's Forge",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "location.winterhold.magnars_forge",
+        "location": "",
+        "tags": [
+          "Magnar's Forge",
+          "Winterhold",
+          "blacksmith",
+          "south side",
+          "smithing services",
+          "crafting"
+        ],
+        "type": "LOCATION"
       }
     ],
-    "entry_count": 11,
-    "exported_at": "2026-05-17T14:44:03Z",
+    "entry_count": 12,
+    "exported_at": "2026-05-17T15:38:34Z",
     "format_version": 2,
     "name": "The Great Cities of JK's North - Winterhold",
     "npc_groups": [],
-    "version": "1.0.0"
+    "version": "1.0.1"
   }
 }
